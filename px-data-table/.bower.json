@@ -1,6 +1,6 @@
 {
   "name": "px-data-table",
-  "version": "1.10.2",
+  "version": "1.10.3",
   "main": [
     "px-data-table.html"
   ],
@@ -36,12 +36,15 @@
     "px-button-group-design": "~0.3.8",
     "px-typography-design": "~0.3.2"
   },
+  "resolutions": {
+    "polymer": "^1.5.0"
+  },
   "homepage": "https://github.com/predixdev/px-data-table",
-  "_release": "1.10.2",
+  "_release": "1.10.3",
   "_resolution": {
     "type": "version",
-    "tag": "v1.10.2",
-    "commit": "542f68fbab4fde9e2fbb4bf0b5854d7ebbf6e08e"
+    "tag": "v1.10.3",
+    "commit": "1777564c7830643ba13cd1e8c53a9c6b3bc7d217"
   },
   "_source": "https://github.com/predixdev/px-data-table.git",
   "_target": "^1.9.1",
