@@ -1,6 +1,6 @@
 {
   "name": "px-card",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "main": [
     "px-card.html"
   ],
@@ -15,10 +15,10 @@
     "OSS_Notice.pdf"
   ],
   "dependencies": {
-    "polymer": "~v1.4.0",
+    "polymer": "^v1.5.0",
     "px": "https://github.com/PredixDev/px.git#~1.2.0",
     "es6-promise": "https://github.com/jakearchibald/es6-promise.git#~2.3.0",
-    "px-theme": "https://github.com/PredixDev/px-theme.git#~0.7.0"
+    "px-theme": "https://github.com/PredixDev/px-theme.git#~0.8.0"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#~3.3.30",
@@ -33,13 +33,13 @@
     "px-defaults-design": "https://github.com/PredixDev/px-defaults-design.git#~0.2.4"
   },
   "homepage": "https://github.com/PredixDev/px-card",
-  "_release": "0.3.3",
+  "_release": "0.4.0",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.3",
-    "commit": "5a83c96ef597e927bbe9d5eea3fd85f6644252a3"
+    "tag": "v0.4.0",
+    "commit": "ac07727d8c2a752825d1389e3f1a87fa16c8c097"
   },
   "_source": "https://github.com/PredixDev/px-card.git",
-  "_target": "~0.3.0",
+  "_target": "~0.4.0",
   "_originalSource": "px-card"
 }
