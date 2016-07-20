@@ -35,9 +35,5 @@
     "px-forms-design": "~0.3.13",
     "px-button-group-design": "~0.3.8",
     "px-typography-design": "~0.3.2"
-  },
-  "resolutions": {
-    "px": "~1.4.2",
-    "es6-promise": "3.2.2"
   }
 }
