@@ -1,6 +1,6 @@
 {
   "name": "px-data-table",
-  "version": "1.11.2",
+  "version": "1.12.0",
   "main": [
     "px-data-table.html"
   ],
@@ -37,11 +37,11 @@
     "px-typography-design": "~0.3.2"
   },
   "homepage": "https://github.com/predixdev/px-data-table",
-  "_release": "1.11.2",
+  "_release": "1.12.0",
   "_resolution": {
     "type": "version",
-    "tag": "v1.11.2",
-    "commit": "d63e6bae7a29c32d35cc6cdd2295677237355a11"
+    "tag": "v1.12.0",
+    "commit": "84bdc8823904759011c412b50d7f3accf74ec1ef"
   },
   "_source": "https://github.com/predixdev/px-data-table.git",
   "_target": "^1.9.1",
