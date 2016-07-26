@@ -36,14 +36,14 @@
     "px-viewport-design": "https://github.com/PredixDev/px-viewport-design.git#~0.4.3",
     "px-widths-responsive-design": "https://github.com/PredixDev/px-widths-responsive-design.git#~0.3.7"
   },
-  "homepage": "https://github.com/predixDev/px-theme",
+  "homepage": "https://github.com/PredixDev/px-theme",
   "_release": "0.8.0",
   "_resolution": {
     "type": "version",
     "tag": "v0.8.0",
     "commit": "2d1e88ddddbd70fdacb81dc06fdb2256f60e0143"
   },
-  "_source": "https://github.com/predixDev/px-theme.git",
+  "_source": "https://github.com/PredixDev/px-theme.git",
   "_target": "~0.8.0",
-  "_originalSource": "https://github.com/predixDev/px-theme.git"
+  "_originalSource": "px-theme"
 }
