@@ -1,3 +1,11 @@
+v1.12.1
+================
+* added vulcanize to demo page
+
+v1.12.0
+================
+* Fixes to allow re-cycling of existing data table element with new data
+
 v1.11.1
 ================
 * Fix bug that when table was selectable but not filterable, select all button (and row) were hidden.
