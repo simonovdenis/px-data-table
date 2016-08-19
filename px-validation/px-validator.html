@@ -78,29 +78,39 @@
        */
       validationMethod: {
         type: String,
-        value: ''
+        value: '',
+        observer: '_validationMethodChanged'
       }
     },
 
     /**
-     * Loads the imported validators specificed in the 'import' property.
+     * Observer to update the validation method
      *
-     * @method ready
+     * @method _validationMethodChanged
      */
-    ready: function() {
-      this.importHref(this.import, function(e) {
-        if (this.validationMethod && window.PxValidators[this.validationMethod]){
-          this.validators.push(window.PxValidators[this.validationMethod]);
-        }
+     _validationMethodChanged: function () {
+       this._importHref();
+     },
 
-        this.validators.concat(this.validators, this.multiStepValidation.map(function(funcName){
-          return window.PxValidators[funcName];
-        }.bind(this)));
-
-      }, function(e) {
-        console.error('Error, could not load ' + this.import);
-      });
-    }
+     /**
+      * Imports the Href with the validation methods
+      *
+      * @method _importHref
+      */
+      _importHref: function () {
+        this.validators = [];
+         this.importHref(this.import, function(e) {
+           if (this.validationMethod && window.PxValidators[this.validationMethod]){
+             this.validators.push(window.PxValidators[this.validationMethod]);
+           }
+           this.validators.concat(this.validators, this.multiStepValidation.map(function(funcName){
+             return window.PxValidators[funcName];
+           }.bind(this)));
+           this.fire('px-validator-loaded');
+         }, function(e) {
+           console.error('Error, could not load ' + this.import);
+         });
+       }
 
   });
 </script>

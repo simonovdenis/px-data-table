@@ -1,0 +1,41 @@
+{
+  "name": "px-demo-snippet",
+  "version": "0.2.1",
+  "main": [
+    "px-demo-snippet.html"
+  ],
+  "ignore": [
+    ".*",
+    "npm-debug.log",
+    "Gruntfile.js",
+    "sass",
+    "bower_components",
+    "node_modules",
+    "test",
+    ".github",
+    "OSS_Notice.pdf",
+    "scripts"
+  ],
+  "dependencies": {
+    "polymer": "^1.5.0",
+    "px-theme": "~0.8.0",
+    "px-clipboard": "^0.0.11",
+    "prism-element": "PolymerElements/prism-element#~1.1.0",
+    "px-spacing-design": "~0.3.8"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#~v1.1.6",
+    "px-starter-kit-design": "~0.5.5",
+    "px-spinner": "^0.3.13"
+  },
+  "homepage": "https://github.com/predixdev/px-demo-snippet",
+  "_release": "0.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.1",
+    "commit": "33716a1da94646424eace9b3165fa002a1eec061"
+  },
+  "_source": "https://github.com/predixdev/px-demo-snippet.git",
+  "_target": "^0.2.0",
+  "_originalSource": "px-demo-snippet"
+}
