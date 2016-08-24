@@ -1,6 +1,6 @@
 {
   "name": "px-validation",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "main": [
     "px-validation.html"
   ],
@@ -38,11 +38,11 @@
     "px-dropdown": "^0.10.4"
   },
   "homepage": "https://github.com/predixDev/px-validation",
-  "_release": "0.2.5",
+  "_release": "0.2.6",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.5",
-    "commit": "03b501b90e90698ea1330e2188c61f17f9db6c9d"
+    "tag": "v0.2.6",
+    "commit": "cabdd650ec6ac261c7dfaa093277fa2f318e222a"
   },
   "_source": "https://github.com/predixDev/px-validation.git",
   "_target": "~0.2.0",
