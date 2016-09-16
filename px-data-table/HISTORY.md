@@ -1,3 +1,19 @@
+v1.13.3
+================
+* Hide scrollbar if not needed
+
+v1.13.2
+================
+* Remove gruntfile
+
+v1.13.1
+================
+* Fix for column chooser and long column names
+
+v1.13.0
+================
+* Move to gulp and style modules
+
 v1.12.7
 ================
 * Added wrapping for long column headers

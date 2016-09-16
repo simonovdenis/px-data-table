@@ -1,6 +1,6 @@
 {
   "name": "px-data-table",
-  "version": "1.12.7",
+  "version": "1.13.3",
   "main": [
     "px-data-table.html"
   ],
@@ -18,43 +18,41 @@
     "px-data-table.png"
   ],
   "dependencies": {
-    "polymer": "^v1.5.0",
-    "px-tooltip": "~v0.7.0",
-    "px-theme": "~0.8.0",
+    "polymer": "^v1.6.0",
+    "px-tooltip": "~v0.8.1",
+    "px-theme": "~1.1.2",
     "iron-a11y-keys-behavior": "PolymerElements/iron-a11y-keys-behavior#~1.1.0",
     "polymer-font-awesome": "polymer-font-awesome#~v0.1.1",
-    "px-validation": "~0.2.0",
-    "px-dropdown": "~0.10.0"
+    "px-validation": "~0.3.0",
+    "px-dropdown": "~0.12.0"
   },
   "devDependencies": {
     "px-tables-design": "~0.3.9",
-    "px-starter-kit-design": "~0.4.6",
-    "iron-ajax": "PolymerElements/iron-ajax#~1.1.1",
+    "px-starter-kit-design": "~0.6.0",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.4.3",
     "px-layout-design": "~0.3.8",
-    "px-card": "~0.4.0",
     "px-spacing-design": "~0.3.4",
     "px-buttons-design": "~0.4.13",
     "px-button-group-design": "~0.3.8",
-    "px-typography-design": "~0.3.2",
+    "px-typography-design": "~1.1.1",
     "px-forms-design": "#~0.3.15",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#~1.2.3",
-    "px-tabs": "~0.4.0",
-    "px-api-viewer": "^0.0.4",
-    "px-demo-snippet": "^0.2.0",
+    "px-tabs": "~0.5.0",
+    "px-api-viewer": "^0.1.0",
+    "px-demo-snippet": "^0.5.1",
     "px-toggle-design": "^0.2.12",
     "px-headings-design": "^0.2.14",
     "px-actionable-text-icons-design": "^0.0.3",
     "px-code-design": "^0.2.11",
     "px-list-inline-design": "^0.2.11",
-    "px-polymer-font-awesome": "^0.1.8",
-    "px-dropdown": "^0.10.1"
+    "px-polymer-font-awesome": "^0.1.8"
   },
   "homepage": "https://github.com/predixdev/px-data-table",
-  "_release": "1.12.7",
+  "_release": "1.13.3",
   "_resolution": {
     "type": "version",
-    "tag": "v1.12.7",
-    "commit": "6aa6ec2c783707d6cae584b7a8824b734e2b3b0f"
+    "tag": "v1.13.3",
+    "commit": "d55537b11a54a89d7d2be86ae754706815430d36"
   },
   "_source": "https://github.com/predixdev/px-data-table.git",
   "_target": "^1.9.1",

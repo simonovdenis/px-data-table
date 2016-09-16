@@ -13,16 +13,19 @@
 <link rel="import" href="px-pagination.html">
 <link rel="import" href="px-data-table-cell.html">
 <link rel="import" href="../polymer-font-awesome/polymer-font-awesome.html">
+<link rel="import" href="css/px-data-table-styles.html">
 
 <dom-module id="aha-table">
-  <link rel="import" type="css" href="css/aha-table.css"/>
   <template>
+    <style include="aha-table-styles"></style>
+    <style include="px-theme-styles"></style>
+
     <content id="columndefs"></content>
 
     <template is="dom-if" if="{{showColumnChooser}}">
-      <div class="flex columnChooser">
+      <div class="flex columnChooser u-mb-">
         <px-dropdown display-value="Show/Hide Column">
-          <px-dropdown-content class="px-dropdown-content" checkbox-mode="true" max-cont-character-width="16" items='{{_columnChooserItems}}'>
+          <px-dropdown-content class="px-dropdown-content" checkbox-mode="true" items='{{_columnChooserItems}}'>
           </px-dropdown-content>
         </px-dropdown>
       </div>
