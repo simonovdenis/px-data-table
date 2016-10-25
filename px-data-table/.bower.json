@@ -1,6 +1,6 @@
 {
   "name": "px-data-table",
-  "version": "1.14.0",
+  "version": "1.14.1",
   "main": [
     "px-data-table.html"
   ],
@@ -39,20 +39,20 @@
     "iron-demo-helpers": "~1.2.5",
     "px-tabs": "~0.5.2",
     "px-api-viewer": "^0.1.0",
-    "px-demo-snippet": "^0.5.2",
+    "px-demo-snippet": "^0.6.4",
     "px-toggle-design": "^0.2.12",
     "px-headings-design": "^0.2.14",
-    "px-actionable-text-icons-design": "^0.0.3",
+    "px-actionable-text-icons-design": "^0.1.0",
     "px-code-design": "^0.2.11",
     "px-list-inline-design": "^0.2.11",
     "px-polymer-font-awesome": "^0.1.9"
   },
   "homepage": "https://github.com/predixdev/px-data-table",
-  "_release": "1.14.0",
+  "_release": "1.14.1",
   "_resolution": {
     "type": "version",
-    "tag": "v1.14.0",
-    "commit": "064f044b48376b1731223648b14554f284f0d940"
+    "tag": "v1.14.1",
+    "commit": "f807c365d7be2c23101730857af657eb9b8f1e5a"
   },
   "_source": "https://github.com/predixdev/px-data-table.git",
   "_target": "^1.9.1",
