@@ -1,6 +1,6 @@
 {
   "name": "px-data-table",
-  "version": "1.14.4",
+  "version": "1.14.5",
   "main": [
     "px-data-table.html"
   ],
@@ -48,11 +48,11 @@
     "px-polymer-font-awesome": "^0.1.9"
   },
   "homepage": "https://github.com/predixdev/px-data-table",
-  "_release": "1.14.4",
+  "_release": "1.14.5",
   "_resolution": {
     "type": "version",
-    "tag": "v1.14.4",
-    "commit": "48066a33bc9643ccc6b538572ee0cc0d1762a40f"
+    "tag": "v1.14.5",
+    "commit": "ccb1f76455a34b07057de4c479891a61ca3f020b"
   },
   "_source": "https://github.com/predixdev/px-data-table.git",
   "_target": "^1.9.1",
