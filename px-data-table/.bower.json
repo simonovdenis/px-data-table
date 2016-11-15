@@ -1,6 +1,6 @@
 {
   "name": "px-data-table",
-  "version": "1.14.5",
+  "version": "1.14.7",
   "main": [
     "px-data-table.html"
   ],
@@ -18,13 +18,13 @@
     "px-data-table.png"
   ],
   "dependencies": {
-    "polymer": "^1.6.1",
+    "polymer": "^1.7.0",
     "px-tooltip": "~0.9.0",
     "px-theme": "~1.1.2",
     "iron-a11y-keys-behavior": "~1.1.9",
     "polymer-font-awesome": "~v0.1.5",
     "px-validation": "~0.3.0",
-    "px-dropdown": "~1.0.0"
+    "px-dropdown": "~2.0.0"
   },
   "devDependencies": {
     "px-tables-design": "~0.3.13",
@@ -39,7 +39,7 @@
     "iron-demo-helpers": "~1.2.5",
     "px-tabs": "~0.5.2",
     "px-api-viewer": "^0.1.0",
-    "px-demo-snippet": "^0.6.4",
+    "px-demo-snippet": "^0.6.9",
     "px-toggle-design": "^0.2.12",
     "px-headings-design": "^0.2.14",
     "px-actionable-text-icons-design": "^0.1.0",
@@ -48,13 +48,14 @@
     "px-polymer-font-awesome": "^0.1.9"
   },
   "homepage": "https://github.com/predixdev/px-data-table",
-  "_release": "1.14.5",
+  "_release": "1.14.7",
   "_resolution": {
     "type": "version",
-    "tag": "v1.14.5",
-    "commit": "ccb1f76455a34b07057de4c479891a61ca3f020b"
+    "tag": "v1.14.7",
+    "commit": "0914f013b96dc22f0a10704b1b294f077a04cfef"
   },
   "_source": "https://github.com/predixdev/px-data-table.git",
-  "_target": "^1.9.1",
-  "_originalSource": "px-data-table"
+  "_target": "^1.14.7",
+  "_originalSource": "px-data-table",
+  "_direct": true
 }

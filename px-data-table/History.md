@@ -1,3 +1,51 @@
+v1.14.7
+==================
+* added css variables
+
+v1.14.6
+==================
+* bower updating px-demo-snippet
+
+v1.14.5
+================
+* Fix for error with auto-generated columns with white spaces in names.
+
+v1.14.4
+================
+* updated to latest version of dropdown
+
+v1.14.2
+================
+* fixed codepen
+
+v1.14.1
+================
+* Update dependencies
+
+v1.13.3
+================
+* Hide scrollbar if not needed
+
+v1.13.2
+================
+* Remove gruntfile
+
+v1.13.1
+================
+* Fix for column chooser and long column names
+
+v1.13.0
+================
+* Move to gulp and style modules
+
+v1.12.7
+================
+* Added wrapping for long column headers
+
+v1.12.6
+================
+* added support for parent-name in demo-snippet
+
 v1.12.5
 ================
 * Update ghp to include secondary demo pages

@@ -1,3 +1,15 @@
+v2.0.1
+==================
+* added the style header in the docs
+
+v2.0.0
+==================
+* added css variables, and changed previous ones to match the BEM naming.
+
+v1.0.1
+==================
+* bower updating px-demo-snippet
+
 v1.0.0
 ===============
 * accepted PR that fixed multiple checkbox behavior and standardized event names
