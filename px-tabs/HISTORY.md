@@ -1,3 +1,21 @@
+v0.5.7
+==================
+* removing px-theme style call
+
+
+v0.5.6
+==================
+* changing Gruntfile.js to gulpfile.js
+
+
+v0.5.5
+==================
+* bower updating px-demo-snippet
+
+v0.5.4
+=================
+* added style variables for theming
+
 v0.5.3
 =================
 * Updated dependencies

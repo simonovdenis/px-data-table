@@ -1,3 +1,23 @@
+v1.14.10
+==================
+* Fix dropdown css variable names to point to correct name.
+
+v1.14.9
+==================
+* removing px-theme style call
+
+v1.14.8
+==================
+* changing Gruntfile.js to gulpfile.js
+
+v1.14.7
+==================
+* added css variables
+
+v1.14.6
+==================
+* bower updating px-demo-snippet
+
 v1.14.5
 ================
 * Fix for error with auto-generated columns with white spaces in names.

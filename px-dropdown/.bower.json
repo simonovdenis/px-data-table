@@ -1,13 +1,13 @@
 {
   "name": "px-dropdown",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "main": [
     "px-dropdown.html"
   ],
   "ignore": [
     ".*",
     "npm-debug.log",
-    "Gruntfile.js",
+    "gulpfile.js",
     "sass",
     "bower_components",
     "node_modules",
@@ -42,11 +42,11 @@
     "px-meta-lists-design": "^0.3.4"
   },
   "homepage": "https://github.com/predixDev/px-dropdown",
-  "_release": "2.0.1",
+  "_release": "2.0.4",
   "_resolution": {
     "type": "version",
-    "tag": "v2.0.1",
-    "commit": "39b54d24b3de81832bc6b1ef9ac37afb7a278f78"
+    "tag": "v2.0.4",
+    "commit": "26d3042e9e32d7fdaa8699ad2d36fdf017d91de1"
   },
   "_source": "https://github.com/predixDev/px-dropdown.git",
   "_target": "~2.0.0",
