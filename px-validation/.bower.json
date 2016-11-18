@@ -1,6 +1,6 @@
 {
   "name": "px-validation",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "main": [
     "px-validation.html"
   ],
@@ -35,14 +35,14 @@
     "px-headings-design": "^0.2.14",
     "px-code-design": "^0.2.11",
     "px-list-inline-design": "^0.2.11",
-    "px-dropdown": "^0.12.0"
+    "px-dropdown": "~2.0.0"
   },
   "homepage": "https://github.com/predixDev/px-validation",
-  "_release": "0.3.4",
+  "_release": "0.3.5",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.4",
-    "commit": "8afa0ce8ed571a8cae4817fba0c7a5b34bcbd7bc"
+    "tag": "v0.3.5",
+    "commit": "1d360d10d5d216046333420605cf3c096723de2e"
   },
   "_source": "https://github.com/predixDev/px-validation.git",
   "_target": "~0.3.0",
