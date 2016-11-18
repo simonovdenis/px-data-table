@@ -1,6 +1,6 @@
 {
   "name": "px-validation",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "main": [
     "px-validation.html"
   ],
@@ -23,8 +23,8 @@
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#~v1.1.0",
     "px-starter-kit-design": "~0.6.0",
-    "px-forms-design": "#~0.3.15",
-    "px-tables-design": "#~0.3.12",
+    "px-forms-design": "^0.3.15",
+    "px-tables-design": "^0.3.12",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#~1.2.3",
     "px-polymer-font-awesome": "^0.1.8",
     "px-tabs": "~0.5.1",
@@ -33,16 +33,16 @@
     "px-toggle-design": "^0.2.12",
     "px-actionable-text-icons-design": "^0.1.0",
     "px-headings-design": "^0.2.14",
-    "px-code-design": "~0.2.11",
+    "px-code-design": "^0.2.11",
     "px-list-inline-design": "^0.2.11",
     "px-dropdown": "^0.12.0"
   },
   "homepage": "https://github.com/predixDev/px-validation",
-  "_release": "0.3.3",
+  "_release": "0.3.4",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.3",
-    "commit": "419cc841bbfaa72bbe802cca72c589264387526f"
+    "tag": "v0.3.4",
+    "commit": "8afa0ce8ed571a8cae4817fba0c7a5b34bcbd7bc"
   },
   "_source": "https://github.com/predixDev/px-validation.git",
   "_target": "~0.3.0",
