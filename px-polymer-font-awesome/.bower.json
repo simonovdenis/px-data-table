@@ -1,9 +1,9 @@
 {
-  "name": "polymer-font-awesome",
+  "name": "px-polymer-font-awesome",
   "version": "0.1.10",
   "authors": [
     "Martin Wragg mdwragg@gmail.com",
-    "Runn Vermel runn@vermel.org"
+    "Runn Vermel runn.vermel@ge.com"
   ],
   "description": "Polymer component to allow easy use of Font Awesome icons in your Polymer element.",
   "keywords": [
@@ -45,7 +45,7 @@
   "_resolution": {
     "type": "version",
     "tag": "v0.1.10",
-    "commit": "8cd716715cffb72e54f14625e4c033bea331eff3"
+    "commit": "683259520647bfde52a3a477aea556891eb297f1"
   },
   "_source": "https://github.com/PredixDev/polymer-font-awesome.git",
   "_target": "^0.1.8",
