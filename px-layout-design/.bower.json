@@ -38,6 +38,6 @@
     "commit": "921b53a99e9aa3a0e41a1df4fa22c6a71d1ac18f"
   },
   "_source": "https://github.com/predixDev/px-layout-design.git",
-  "_target": "~0.3.13",
+  "_target": "^0.3.13",
   "_originalSource": "px-layout-design"
 }
