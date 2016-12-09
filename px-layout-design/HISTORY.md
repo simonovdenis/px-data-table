@@ -1,3 +1,16 @@
+v0.3.22
+==================
+* Move to style modules to demos
+
+v0.3.21
+==================
+* bumping sassdoc to propogate clipboard changes
+
+
+v0.3.20
+==================
+* bumping all version of px-sass-doc to get px-clipboard update
+
 
 v0.3.19
 ==================
