@@ -1,6 +1,6 @@
 {
   "name": "px-normalize-design",
-  "version": "0.3.17",
+  "version": "0.3.18",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>",
@@ -30,11 +30,11 @@
     "px-sass-doc": "^0.2.10",
     "px-starter-kit-design": "~0.6.0"
   },
-  "_release": "0.3.17",
+  "_release": "0.3.18",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.17",
-    "commit": "558b57c153901a0a9b91e7795c475a94889915fe"
+    "tag": "v0.3.18",
+    "commit": "861f3f34d916e8ac98677b63708f4f5eecfd2ea7"
   },
   "_source": "https://github.com/predixDev/px-normalize-design.git",
   "_target": "^0.3.0",
