@@ -39,6 +39,7 @@ $inuit-enable-table--large: true;
 $inuit-enable-table--rows: true;
 $inuit-enable-table--columns: true;
 $inuit-table-border-color: var(--px-data-table-cell-border-color, $gray5);
+$inuit-table-header-text-align: var(--px-data-table-header-text-align, left);
 
 @import "px-tables-design/_base.tables.scss";
 
@@ -115,6 +116,7 @@ th {
 
 .column-head {
   white-space: pre-line;
+  width: 100%;
 }
 
 label {
