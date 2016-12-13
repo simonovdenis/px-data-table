@@ -1,6 +1,6 @@
 {
   "name": "px-data-table",
-  "version": "1.14.22",
+  "version": "1.15.1",
   "main": [
     "px-data-table.html"
   ],
@@ -19,40 +19,40 @@
   ],
   "dependencies": {
     "polymer": "^1.7.0",
-    "px-tooltip": "~0.9.0",
+    "px-tooltip": "^0.10.0",
     "px-theme": "^2.0.1",
     "iron-a11y-keys-behavior": "~1.1.9",
     "polymer-font-awesome": "~v0.1.5",
-    "px-validation": "~0.3.0",
-    "px-dropdown": "~2.0.0"
+    "px-validation": "^0.4.0",
+    "px-dropdown": "^2.1.0"
   },
   "devDependencies": {
-    "px-tables-design": "^0.3.13",
-    "px-starter-kit-design": "^0.6.0",
+    "px-tables-design": "^1.1.0",
+    "px-starter-kit-design": "^0.7.0",
     "iron-ajax": "^1.4.3",
-    "px-layout-design": "^0.3.13",
-    "px-spacing-design": "^0.3.8",
-    "px-buttons-design": "^0.4.26",
-    "px-button-group-design": "^0.3.12",
-    "px-typography-design": "^1.1.1",
-    "px-forms-design": "^0.3.17",
+    "px-layout-design": "^0.4.0",
+    "px-spacing-design": "^0.4.0",
+    "px-buttons-design": "^1.1.0",
+    "px-button-group-design": "^1.0.3",
+    "px-typography-design": "^1.2.0",
+    "px-forms-design": "^1.1.0",
     "iron-demo-helpers": "~1.2.5",
-    "px-tabs": "^0.5.2",
+    "px-tabs": "^0.6.0",
     "px-api-viewer": "^0.1.0",
     "px-demo-snippet": "^0.6.11",
-    "px-toggle-design": "^0.2.12",
-    "px-headings-design": "^0.2.14",
-    "px-actionable-text-icons-design": "^0.1.0",
-    "px-code-design": "^0.2.11",
-    "px-list-inline-design": "^0.2.11",
-    "px-polymer-font-awesome": "^0.1.9"
+    "px-toggle-design": "^1.1.0",
+    "px-headings-design": "^0.3.0",
+    "px-actionable-text-icons-design": "^1.1.0",
+    "px-code-design": "^1.1.0",
+    "px-list-inline-design": "^0.3.0",
+    "px-polymer-font-awesome": "^1.1.0"
   },
   "homepage": "https://github.com/predixdev/px-data-table",
-  "_release": "1.14.22",
+  "_release": "1.15.1",
   "_resolution": {
     "type": "version",
-    "tag": "v1.14.22",
-    "commit": "647c8768ef4f499208e8e90b81d549be803fd375"
+    "tag": "v1.15.1",
+    "commit": "61fa21625908708011beefbe227feae18895ec00"
   },
   "_source": "https://github.com/predixdev/px-data-table.git",
   "_target": "^1.14.7",

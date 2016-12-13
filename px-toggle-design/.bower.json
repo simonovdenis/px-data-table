@@ -1,6 +1,6 @@
 {
   "name": "px-toggle-design",
-  "version": "0.2.23",
+  "version": "1.1.1",
   "authors": [
     "General Electric"
   ],
@@ -19,24 +19,29 @@
     "bower_components",
     "test",
     "tests",
-    "OSS_Notice.pdf"
+    "OSS_Notice.pdf",
+    "CONTRIBUTING.md",
+    "HISTORY.md",
+    "LICENSE.md",
+    "README.md",
+    "scripts"
   ],
   "dependencies": {
     "px-colors-design": "^0.2.20",
-    "px-defaults-design": "^0.3.0",
+    "px-defaults-design": "^1.0.2",
     "px-helpers-design": "^0.3.7"
   },
   "devDependencies": {
-    "px-starter-kit-design": "~0.6.0",
-    "px-sass-doc": "^0.2.10"
+    "px-starter-kit-design": "^0.7.0",
+    "px-sass-doc": "^0.3.0"
   },
-  "_release": "0.2.23",
+  "_release": "1.1.1",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.23",
-    "commit": "6fd22b558443e08811db98e6e3a449ff75930edd"
+    "tag": "v1.1.1",
+    "commit": "761419b318ab6c39b94523974ba6e05e5dc87aa1"
   },
   "_source": "https://github.com/predixDev/px-toggle-design.git",
-  "_target": "^0.2.12",
+  "_target": "^1.1.0",
   "_originalSource": "px-toggle-design"
 }

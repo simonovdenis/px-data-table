@@ -1,3 +1,27 @@
+v1.1.1
+==================
+* Update missed design depndencies
+
+v1.1.0
+==================
+* Updated dependencies
+
+v1.0.3
+==================
+* Add service worker for gh_pages.
+
+v1.0.2
+==================
+* Gulp fixes & style module naming changes.
+
+v1.0.1
+==================
+* Move demo page to use style module. Clean out dead code.
+
+v1.0.0
+==================
+* Reintroduce CSS style variables
+
 v0.4.40
 ==================
 * remove CSS style variables from 0.4.X release track

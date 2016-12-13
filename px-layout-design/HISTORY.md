@@ -1,3 +1,11 @@
+v0.4.1
+==================
+* Update missed design depndencies
+
+v0.4.0
+==================
+* Updated dependencies
+
 v0.3.22
 ==================
 * Move to style modules to demos
