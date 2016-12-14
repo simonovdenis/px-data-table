@@ -66,9 +66,9 @@
       </template>
       <!-- icon template -->
       <template is="dom-if" if="{{isNotEqual(cellType, 'dropdown')}}">
-        <div class="fa fa-fw cell-status--container">
+        <div class$="{{_getCellIconContainerClass(_showEditIcon, _editing, cellValidation.passedValidation)}}">
           <iron-icon class$="{{_getCellIconClass(_showEditIcon, _editing, cellValidation.passedValidation)}}"
-            icon="{{_getCellIcon(_showEditIcon, _editing, cellValidation.passedValidation)}}">
+                     icon="{{_getCellIcon(_showEditIcon, _editing, cellValidation.passedValidation)}}">
           </iron-icon>
           <template is="dom-if" if="{{!cellValidation.passedValidation}}">
             <px-tooltip
@@ -335,7 +335,7 @@
         if(editing){
           classList.push('visuallyhidden');
         }
-        if (!cellDisplayValue){
+        if (0 !== cellDisplayValue && !cellDisplayValue){
           classList.push('cell--value__empty');
         }
 
@@ -352,6 +352,15 @@
         else {
           return 'polymer-font-awesome:fa-warning';
         }
+      },
+      _getCellIconContainerClass: function(showEditIcon, editing, valid){
+        var classList = ['fa fa-fw cell-status--container'];
+
+        if (valid && (editing || !showEditIcon)) {
+          classList.push('visuallyhidden');
+        }
+
+        return classList.join(' ');
       },
       _getCellIconClass: function(showEditIcon, editing, valid){
         var classList= ['cell--status--container--icon'];

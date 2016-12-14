@@ -39,6 +39,8 @@ $inuit-enable-table--rows: true;
 $inuit-enable-table--columns: true;
 $inuit-table-border-color: var(--px-data-table-border-color,$gray5);
 
+$px-data-table-cell-text-align: var(--px-data-table-cell-text-align, left);
+
 @import "px-tables-design/_base.tables.scss";
 
 @import "px-layout-design/_objects.layout.scss";
@@ -87,6 +89,21 @@ $px-data-table-cell-inner-height : calculateRem(18px);
 
 .cell--value {
   @extend .flex;
+}
+
+.cell--container {
+  width: 100%;
+  text-align: $px-data-table-cell-text-align;
+  display: inline-flex;
+}
+
+.cell--value {
+  width: 100%;
+  display: block;
+}
+
+.cell-status--container.visuallyhidden {
+  width: 0;
 }
 
 .cell--value__empty {
