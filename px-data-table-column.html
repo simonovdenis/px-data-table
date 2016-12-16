@@ -97,6 +97,32 @@ Element that defines a columns in a data table.
       },
 
       /**
+       * Format for number values in column.
+       *
+       *      <px-data-table-column number-format="#.##" ...></px-data-table-column>
+       *
+       * @default
+       */
+      numberFormat: {
+        type: String,
+        value: "",
+        notify: true
+      },
+
+      /**
+       * Conditional formatting for number values in column.
+       *
+       *      <px-data-table-column conditional-formatting=">10?text-color-red,text-color-green|20?background-clor-red," ...></px-data-table-column>
+       *
+       * @default
+       */
+      conditionalFormatting: {
+        type: String,
+        value: "",
+        notify: true
+      },
+
+      /**
        * Full path to the custom function (on window) to sort this row with.
        *
        * A custom function with this path must on window.  If not, the column falls back to default sorting behavior.

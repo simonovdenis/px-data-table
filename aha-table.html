@@ -14,6 +14,7 @@
 <link rel="import" href="px-data-table-cell.html">
 <link rel="import" href="../polymer-font-awesome/polymer-font-awesome.html">
 <link rel="import" href="css/px-data-table-styles.html">
+<script src="../number-format.js/lib/format.js"></script>
 
 <dom-module id="aha-table">
   <template>
@@ -100,6 +101,7 @@
                                       dropdown-items="{{column.dropdownItems}}"
                                       dropdown-bounds="{{scrollBody}}"
                                       cell-display-value="{{_readContent(internalRow, column)}}"
+                                      conditional-formatting="{{column.conditionalFormatting}}"
                                       cell-value="{{_getInternalDataAt(internalRow, column.name)}}"
                                       cell-display-tooltip="{{_shouldClipDatumString(internalRow, column)}}"
                                       cell-editable="{{column.editable}}"
@@ -1431,6 +1433,9 @@
 
       if(this._shouldClipDatumString(row, column)) {
         return this._clipDatumString(datum, column);
+      }
+      if (column.numberFormat !== '') {
+        return format(column.numberFormat, datum);
       }
       return datum;
     },
