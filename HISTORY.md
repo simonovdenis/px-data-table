@@ -1,3 +1,10 @@
+v1.15.2.1
+==================
+* Added ability to align text in table headers via --px-data-table-header-text-align.
+* Added ability to align text in table cells via --px-data-table-cell-text-align.
+* Added ability to format numbers in table columns: <px-data-table-column number-format="#.##" ...></px-data-table-column>
+* Added ability to format values conditionally in table columns: <px-data-table-column conditional-formatting="x>2000?text-color-red,|3000<x && x<4000?background-color-yellow,|x>4000?background-color-red," ...></px-data-table-column>
+
 v1.15.2
 ==================
 * Fix pagination button icons and column sort icons. Fix double-tap selection of column headers and add nowrap for first column.

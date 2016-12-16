@@ -116,12 +116,12 @@ th {
 
 .column-head {
   white-space: pre-line;
-  width: 100%;
   user-select: none;
   &--selected {
     white-space: nowrap;
     user-select: none;
   }
+  width: 100%;
 }
 
 label {
