@@ -1,3 +1,11 @@
+v1.15.3.1
+==================
+* applied changes from 1.15.3
+
+v1.15.3
+==================
+* Scripting to CI/CD and preparing for docs push
+
 v1.15.2.1
 ==================
 * Added ability to align text in table headers via --px-data-table-header-text-align.
@@ -7,7 +15,7 @@ v1.15.2.1
 
 v1.15.2
 ==================
-* Fix pagination button icons and column sort icons. Fix double-tap selection of column headers and add nowrap for first column.
+* Fix pagination button icons and column sort icons. Fix double-tap selection of column headers and add nowrap for first column
 
 v1.15.1
 ==================
