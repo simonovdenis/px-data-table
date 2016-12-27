@@ -121,14 +121,21 @@
         <div class="flex flex--center no-results">No Results</div>
       </template>
     </div>
-    <!-- Pagination controls -->
-    <div class="pagination">
-      <px-pagination class$="{{_getPaginationVisibility(hidePaginationControl)}}"
-                     id="pagination"
-                     number-of-items="{{numberOfItems}}"
-                     page-size="{{pageSize}}"
-                     first-item-index-to-display="{{firstItemIndex}}">
-      </px-pagination>
+    <div style="display: flex;justify-content:space-between">
+      <div>
+        <button id="saveDataButton" class="btn btn--bare" on-click="_onSaveData">
+          <iron-icon icon="fa:fa-floppy-o"></iron-icon>
+        </button>
+      </div>
+      <!-- Pagination controls -->
+      <div class="pagination">
+        <px-pagination class$="{{_getPaginationVisibility(hidePaginationControl)}}"
+                       id="pagination"
+                       number-of-items="{{numberOfItems}}"
+                       page-size="{{pageSize}}"
+                       first-item-index-to-display="{{firstItemIndex}}">
+        </px-pagination>
+      </div>
     </div>
   </template>
 </dom-module>
@@ -372,6 +379,25 @@
         }.bind(this));
 
       }.bind(this));
+
+      var editable = this._isTableEditable();
+      var saveDataButton = Polymer.dom(this.root).querySelector('#saveDataButton');
+      if (editable) {
+        saveDataButton.classList.remove('visuallyhidden');
+      } else {
+        saveDataButton.classList.add('visuallyhidden');
+      }
+    },
+
+    _isTableEditable: function() {
+      if (typeof this.meta !== 'undefined') {
+        for (var i = 0; i < this.meta.length; i++) {
+          if (this.meta[i].editable) {
+            return true;
+          }
+        }
+      }
+      return false;
     },
 
     _addColumn: function(addedColumn) {
@@ -495,9 +521,9 @@
             return true;
           }
         });
-        if(this._cellChanged(this._readContent(this._internalData[index], column), changeRec.value)){
-          this._handleValidateEvent(evt);
-        }
+//        if(this._cellChanged(this._readContent(this._internalData[index], column), changeRec.value)){
+//          this._handleValidateEvent(evt);
+//        }
       }
 
     },
@@ -948,6 +974,10 @@
 			this.fire('after-save', {"event": evt, "row" : row, "column" : column});
 
 		},
+    _onSaveData: function (evt) {
+      var detail = {"rows": this._internalData};
+      this.fire('px-save-data', detail);
+    },
     _cellChanged: function(oldValue, newValue){
       return (oldValue !== newValue);
     },

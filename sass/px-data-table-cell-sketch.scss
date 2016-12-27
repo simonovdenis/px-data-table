@@ -89,6 +89,8 @@ $px-data-table-cell-inner-height : calculateRem(18px);
 
 .cell--value {
   @extend .flex;
+  width: 100%;
+  display: block;
 }
 
 .cell--container {
@@ -97,14 +99,6 @@ $px-data-table-cell-inner-height : calculateRem(18px);
   display: inline-flex;
 }
 
-.cell--value {
-  width: 100%;
-  display: block;
-}
-
-.cell-status--container.visuallyhidden {
-  width: 0;
-}
 
 .cell--value__empty {
   height: $px-data-table-cell-inner-height;
