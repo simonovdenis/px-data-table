@@ -1,6 +1,14 @@
-v1.15.3.1
+v1.15.5.1
 ==================
-* applied changes from 1.15.3
+* applied changes from 1.15.5
+
+v1.15.5
+==================
+* Fixed validation failure icon. Fix up imports of px-polymer-font-awesome.
+
+v1.15.4
+==================
+* Fixed polymer-font-awesome icon
 
 v1.15.3
 ==================
