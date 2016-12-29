@@ -39,6 +39,11 @@ common/abstract rules go in px-data-table-sketch.scss, not in this file.
   }
 }
 
+:host(.cell__edited) {
+  background-color: var(--px-data-table-cell-background-color--edited, lightpink);
+  color: var(--px-data-table-cell-text-color--edited, red);
+}
+
 :host(.cell--value__highlight--selected.cell--value__highlight--selected.cell--value__highlight--selected.cell--value__highlight--selected.cell--value__highlight--selected){
   border: $inuit-table-border-width double var(--px-data-table-cell-border-color--selected, $select-blue-default);
 }
