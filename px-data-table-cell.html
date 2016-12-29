@@ -325,6 +325,7 @@
         }
         else {
           value = evt.target.value;
+          this.toggleClass('cell--edited', true);
         }
         this.fire('save', {newValue: value});
       },

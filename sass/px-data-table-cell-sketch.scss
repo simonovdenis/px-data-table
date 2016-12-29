@@ -93,6 +93,10 @@ $px-data-table-cell-inner-height : calculateRem(18px);
   display: block;
 }
 
+.cell--edited {
+  background-color:  lightpink;
+}
+
 .cell--container {
   width: 100%;
   text-align: $px-data-table-cell-text-align;
